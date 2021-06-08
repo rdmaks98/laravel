@@ -1,0 +1,50 @@
+1 composer create-project laravel/laravel="7.2.0*" "project name" ecommerce_Clothes
+2 composer update
+3 php artisan clear-compiled
+4 composer dump-autoload
+5 composer require laravel/ui "2.0"
+6 php artisan ui bootstrap --auth
+7 php artisan migrate
+    >>>>>>use Illuminate\Support\Facades\Schema;
+    >>>>>>boot function Schema::defaultstringLength(191);
+
+OR(laravel 8)
+create project =  composer create-project --prefer-dist laravel/laravel laravelcrud
+database = .env
+ui = composer require laravel/ui
+node package = npm install
+pakages run = npm run dev
+auth files in bootstrap =  php artisan ui bootstrap --auth
+generate table = php artisan migrate it is not direct working so update (app\Providers\AppServiceProvider.php)
+    >>>>>>use Illuminate\Support\Facades\Schema;
+    >>>>>>boot function Schema::defaultstringLength(191);
+
+
+basic step:
+laravel = laravel is php framework
+          for develoaping webapp and api
+          free of cost
+          modern frmework and easy to use
+
+details : cms=wordpress 
+           framework = laravel
+
+realese : 2011
+
+why use : strong command line support (ek command thi apde run kari sakie 6ie)
+command : 1.composer global require laravel/installer(aa apdi system ma laravel install kari dese)
+          2.laravel new projectname (aa command jyre 1 hase tyre use karvo)
+          3. composer create project --prefer-dist laravel/laravel projectname
+          4. php artisan serve
+
+
+website
+https://www.djamware.com/
+https://fahmidasclassroom.com/
+https://www.itsolutionstuff.com/
+https://www.journaldev.com/
+https://www.educba.com/
+https://www.onlyxcodes.com/     
+https://codeofaninja.com/php-programming-tutorials
+https://www.studentstutorial.com/
+https://www.programiz.com/
